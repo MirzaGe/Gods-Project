@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		4401714326B463360051182D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4401714226B463360051182D /* AppDelegate.swift */; };
 		4401714526B463360051182D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4401714426B463360051182D /* SceneDelegate.swift */; };
-		4401714726B463360051182D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4401714626B463360051182D /* ViewController.swift */; };
+		4401714726B463360051182D /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4401714626B463360051182D /* TableViewController.swift */; };
 		4401714A26B463360051182D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4401714826B463360051182D /* Main.storyboard */; };
 		4401714C26B463380051182D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4401714B26B463380051182D /* Assets.xcassets */; };
 		4401714F26B463380051182D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4401714D26B463380051182D /* LaunchScreen.storyboard */; };
+		4401715826B464630051182D /* GreekGod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4401715726B464630051182D /* GreekGod.swift */; };
+		4401715C26B46A4A0051182D /* GreekGodsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4401715B26B46A4A0051182D /* GreekGodsData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4401713F26B463360051182D /* Gods Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gods Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4401714226B463360051182D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4401714426B463360051182D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4401714626B463360051182D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4401714626B463360051182D /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		4401714926B463360051182D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4401714B26B463380051182D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4401714E26B463380051182D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4401715026B463380051182D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4401715726B464630051182D /* GreekGod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreekGod.swift; sourceTree = "<group>"; };
+		4401715B26B46A4A0051182D /* GreekGodsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreekGodsData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +62,13 @@
 			children = (
 				4401714226B463360051182D /* AppDelegate.swift */,
 				4401714426B463360051182D /* SceneDelegate.swift */,
-				4401714626B463360051182D /* ViewController.swift */,
+				4401714626B463360051182D /* TableViewController.swift */,
 				4401714826B463360051182D /* Main.storyboard */,
 				4401714B26B463380051182D /* Assets.xcassets */,
 				4401714D26B463380051182D /* LaunchScreen.storyboard */,
 				4401715026B463380051182D /* Info.plist */,
+				4401715726B464630051182D /* GreekGod.swift */,
+				4401715B26B46A4A0051182D /* GreekGodsData.swift */,
 			);
 			path = "Gods Project";
 			sourceTree = "<group>";
@@ -137,9 +143,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4401714726B463360051182D /* ViewController.swift in Sources */,
+				4401714726B463360051182D /* TableViewController.swift in Sources */,
+				4401715826B464630051182D /* GreekGod.swift in Sources */,
 				4401714326B463360051182D /* AppDelegate.swift in Sources */,
 				4401714526B463360051182D /* SceneDelegate.swift in Sources */,
+				4401715C26B46A4A0051182D /* GreekGodsData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
